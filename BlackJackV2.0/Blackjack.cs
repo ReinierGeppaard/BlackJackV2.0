@@ -256,6 +256,7 @@ namespace BlackJackV2._0
             {
                 StartGame.Enabled = true;
             }
+            Console.WriteLine("test");
         }
         private void UpdateChips()
         {
