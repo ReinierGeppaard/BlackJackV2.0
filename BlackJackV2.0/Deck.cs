@@ -14,14 +14,10 @@ namespace BlackJackV2._0
         public Deck()
 
         {
-            string[] suits = new string[] { "Spades", "Diamonds", "Clubs", "Hearts" };
-            int[] ranks = new int[] { 2, 3, 4, 5, 6, 7, 8, 9, 10, 10, 10, 10, 11 };
-
-
 
             deck = new List<Card>()
             {
-                new Card() { rank = 2, suit = "Two Spades", image = $"../../Images/{ranks[0]}_{suits[0]}.png" },
+                new Card() { rank = 2, suit = "Two Spades", image = "../../Images/2_of_spades.png" },
                 new Card() { rank = 3, suit = "Three Spades", image = "../../Images/3_of_spades.png" },
                 new Card() { rank = 4, suit = "Four Spades", image = "../../Images/4_of_spades.png" },
                 new Card() { rank = 5, suit = "Five Spades", image = "../../Images/5_of_spades.png" },
